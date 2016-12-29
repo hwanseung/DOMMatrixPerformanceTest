@@ -44,7 +44,7 @@ function runTest() {
   document.getElementById("polyfill_100").innerHTML = polyfillTest(100);
   document.getElementById("polyfill_1000").innerHTML = polyfillTest(1000);
   document.getElementById("polyfill_10000").innerHTML = polyfillTest(10000);
-  //document.getElementById("polyfill_100000").innerHTML = polyfillTest(100000);
+  document.getElementById("polyfill_100000").innerHTML = polyfillTest(100000);
   //document.getElementById("polyfill_1000000").innerHTML = polyfillTest(1000000);
 
   try {
@@ -52,7 +52,7 @@ function runTest() {
     document.getElementById("native_100").innerHTML = nativeTest(100);
     document.getElementById("native_1000").innerHTML = nativeTest(1000);
     document.getElementById("native_10000").innerHTML = nativeTest(10000);
-    //document.getElementById("native_100000").innerHTML = nativeTest(100000);
+    document.getElementById("native_100000").innerHTML = nativeTest(100000);
     //document.getElementById("native_1000000").innerHTML = nativeTest(1000000);
   } catch(err) {
     var elements = document.getElementsByClassName("native");
@@ -94,12 +94,12 @@ function runTest() {
       <th id="polyfill_10000"></th>
       <th id="native_10000" class="native"></th>
     </tr>
-    <!--
     <tr>
       <th>100000</th>
       <th id="polyfill_100000"></th>
       <th id="native_100000" class="native"></th>
     </tr>
+    <!--
     <tr>
       <th>1000000</th>
       <th id="polyfill_1000000"></th>
