@@ -3,7 +3,6 @@ https://hwanseung.github.io/DOMMatrixPerformanceTest
 
 ### default
 when perform many times, polyfill is faster than native about 40 times.
-
 | count   |        polyfill       |        native        |
 |---------|:---------------------:|:--------------------:|
 |      10 | 1.5950000000000273ms | 5.57000000000005ms   |
@@ -17,8 +16,10 @@ when perform many times, polyfill is faster than native about 40 times.
 ### parameter of multiply function was changed to DOMMatrixReadOnly instead of DOMMatrixInit.
 * https://codereview.chromium.org/2606023002/
 
+<<<<<<< HEAD
+=======
 when perform many times, polyfill is faster than native about 2 times.
-
+>>>>>>> 0f0e1ed... update README.md
 | count   |        polyfill       |        native        |
 |---------|:---------------------:|:--------------------:|
 |      10 | 0.14500000000043656ms | 0.2900000000008731ms |
