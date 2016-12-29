@@ -13,6 +13,7 @@ https://hwanseung.github.io/DOMMatrixPerformanceTest
 
 ### parameter of multiply function was changed to DOMMatrixReadOnly instead of DOMMatrixInit.
 * https://codereview.chromium.org/2606023002/
+
 | count   |        polyfill       |        native        |
 |---------|:---------------------:|:--------------------:|
 |      10 | 0.14500000000043656ms | 0.2900000000008731ms |
