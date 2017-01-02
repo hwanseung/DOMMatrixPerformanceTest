@@ -1,7 +1,7 @@
 # DOMMatrixPerformanceTest
 LINK : https://hwanseung.github.io/DOMMatrixPerformanceTest
-
-(polyfill is refered https://github.com/css-typed-om/typed-om/blob/master/src/dom-matrix-readonly.js)
+* this test performed multiply() function many time.
+* (polyfill is refered https://github.com/css-typed-om/typed-om/blob/master/src/dom-matrix-readonly.js)
 
 ## Test Result
 ### 1. default (current implementation status)
