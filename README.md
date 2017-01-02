@@ -1,7 +1,9 @@
 # DOMMatrixPerformanceTest
 https://hwanseung.github.io/DOMMatrixPerformanceTest
+(polyfill is refered https://github.com/css-typed-om/typed-om/blob/master/src/dom-matrix-readonly.js)
 
-### default
+## Test Result
+### 1. default (current implementation status)
 when perform many times, polyfill is faster than native about 40 times.
 
 | count   |        polyfill       |        native        |
@@ -14,7 +16,7 @@ when perform many times, polyfill is faster than native about 40 times.
 (in my local computer)
 
 
-### parameter of multiply function was changed to DOMMatrixReadOnly instead of DOMMatrixInit.
+### 2. parameter of multiply function was changed to DOMMatrixReadOnly instead of DOMMatrixInit.
 * https://codereview.chromium.org/2606023002/
 
 when perform many times, polyfill is faster than native about 2 times.
